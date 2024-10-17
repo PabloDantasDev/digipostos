@@ -1,0 +1,83 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Início",
+      "icon": "menu-icon tf-icons bx bx-home",
+      "slug": "inicio"
+    },
+    {
+      "url": "/cadastro",
+      "name": "Cadastro das prefeituras",
+      "icon": "menu-icon tf-icons bx bxs-institution",
+      "slug": "cadastros",
+      "submenu": [
+        {
+          "url": "/cadastro/prefeituras",
+          "name": "Prefeituras",
+          "slug": "prefeituras"
+        },
+        {
+          "url": "/cadastro/secretarias",
+          "name": "Secretarias",
+          "slug": "secretarias"
+        },
+        {
+          "url": "/cadastro/veiculos",
+          "name": "Veículos",
+          "slug": "veiculos"
+        },
+        {
+          "url": "/cadastro/servidores",
+          "name": "Servidores",
+          "slug": "servidores"
+        }
+      ]
+    },
+    {
+      "url": "/cadastro/postos",
+      "name": "Cadastro dos postos",
+      "icon": "menu-icon tf-icons bx bx bx-gas-pump",
+      "slug": "cadastro-dos-postos",
+      "submenu": [
+        {
+          "url": "/cadastro/postos/postos",
+          "name": "Postos",
+          "slug": "postos"
+        },
+        {
+          "url": "/cadastro/postos/funcionarios",
+          "name": "Funcionários",
+          "slug": "funcionarios"
+        },
+        {
+          "url": "/cadastro/postos/combustiveis",
+          "name": "Combustíveis",
+          "slug": "combustiveis"
+        }
+      ]
+    },
+    {
+      "url": "/cadastro/creditos",
+      "name": "Cadastro dos créditos",
+      "icon": "menu-icon tf-icons bx bx-dollar-circle",
+      "slug": "cadastro-dos-creditos"
+    },
+    {
+      "menuHeader": ""
+    },
+    {
+      "url": "/relatorios",
+      "name": "Relatórios",
+      "icon": "menu-icon tf-icons bx bx-line-chart",
+      "slug": "relatorios",
+      "submenu": [
+        {
+          "url": "/relatorios/baixas",
+          "name": "Baixas",
+          "slug": "baixas"
+        }
+      ]
+    }
+  ]
+}
