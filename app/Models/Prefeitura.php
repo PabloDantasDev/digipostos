@@ -32,6 +32,11 @@ class Prefeitura extends Model
     {
         return $this->hasOne(User::class, 'department_id', 'id');
     }
+
+
+    public static function countPrefeitura(){
+        return self::count(); 
+    }
     
     use HasFactory;
 }

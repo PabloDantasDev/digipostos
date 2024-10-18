@@ -7,13 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Secretaria extends Model
 {
+    use HasFactory;
 
     protected $fillable = [
         'name',
         'prefeitura_id',
     ];
-    
-    use HasFactory;
 
     public function prefeitura() 
     {
@@ -30,4 +29,9 @@ class Secretaria extends Model
         return $this->hasMany(Servidor::class, 'secretaria_id', 'id');
     }
 
+    // Método para contar o número de secretarias
+    public static function countSecretarias()
+    {
+        return self::count();
+    }
 }

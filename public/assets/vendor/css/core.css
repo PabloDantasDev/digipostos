@@ -7394,7 +7394,7 @@ a.bg-lightest:hover, a.bg-lightest:focus {
 }
 
 .invert-text-white {
-  color: #ffff !important;
+  color: #fff !important;
 }
 
 .invert-text-white[href]:hover:hover, .invert-text-white[href]:hover:focus {
@@ -10093,6 +10093,7 @@ button.list-group-item-gray.active {
 
 .card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
   color: #697a8d;
+  margin-left: 5px;
 }
 
 .card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
@@ -11934,7 +11935,6 @@ button.list-group-item-gray.active {
   --bs-text-opacity: 1;
   color: #697a8d !important;
   text-align: center;
-  font-size: 20px;
 }
 
 .text-muted {

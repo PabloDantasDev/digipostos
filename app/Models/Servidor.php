@@ -37,4 +37,10 @@ class Servidor extends Model
     public function user() {
         return $this->hasOne(User::class, 'department_id', 'id');
     }
+
+    public function countServidor(){
+
+        return self::count();
+
+    }
 }

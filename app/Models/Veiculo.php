@@ -47,4 +47,10 @@ class Veiculo extends Model
     {
         return $this->belongsTo(Combustivel::class, 'combustivel_id', 'id');
     }
+
+    public function countVeiculos(){
+
+        return self::count();
+
+    }
 }
